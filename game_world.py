@@ -1,4 +1,4 @@
-objects = [[], []] # 0번 레이어, 1번 레이어
+objects = [[], [], []] # 0번 레이어, 1번 레이어
 
 def add_object(o, depth = 0):
     objects[depth].append(o)
