@@ -29,10 +29,10 @@ def reset_world():
 
     running = True
 
-    grass = Grass()
+    grass = Grass(400, 30)
     game_world.add_object(grass, 0)
 
-    f_grass = Grass()
+    f_grass = Grass(400, 20)
     game_world.add_object(f_grass, 2)
 
     boy = Boy()
